@@ -1,0 +1,58 @@
+
+body { 
+    display: grid;
+    place-items: center;
+
+}
+#main-app{ 
+    
+    text-align: left;
+    background: rgb(200, 200, 255);
+    border-radius: 10px;
+    width: 50%;
+    
+    
+    
+}
+
+#main-app li { 
+    background: rgb(171, 171, 255);;
+    margin: 10%;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#photo_cake{ 
+    width: 70%;
+    border-radius: 20px;
+    
+}
+
+#food{
+    
+    text-align: center;
+}
+
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 600ms ease-in-out;
+    
+    
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}
+
+
+.ReactModal__Content { 
+   height: 50%;
+    width: 40%;
+    margin: auto;
+    
+} 
